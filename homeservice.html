@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KHiT Nails</title>
+    </head>
+
+    <body>
+        <nav class="main-container3">
+            <img id="polish3" src="polish-removebg-preview.png" width="60" height="60">
+            <p><b>KHit Nails</b></p>
+        </nav>
+
+        <nav class="links3">
+            <a class="ll" href="./index.html">Home</a>
+            <a class="ll" href="./about.html">About Us</a>
+            <a class="ll" href="./services.html">Services</a>
+            <a class="ll" href="./gallery.html">Gallery</a>
+            <a class="ll" href="./contacts.html">Contacts</a>
+            <a class="ll" href="./developers.html">Developers</a>
+        </nav>
+
+
+        <div class="form">
+        <div class="first">
+            <label><h1>Home Service Customer's Information</h1></label>
+            <label class="huhu">Full Name:</label>
+            <input type="text" class="name" placeholder="Enter your full name">
+        </div>
+        <div class="second">
+            <label class="huhu">Contact Number:</label>
+            <input type="text" class="contacts" placeholder="Enter your number">
+        </div>
+        <div class="third">
+            <label class="huhu">Address:</label>
+            <input type="text" class="address" placeholder="Enter your address">
+        </div>
+        <div class="fourth">
+            <label class="huhu"><h1 id="ys">Your Schedule Appointment:</h1></label>
+            <label>Date:</label>
+            <input type="text" class="date" placeholder="Enter your date schedule">
+        </div>
+        <div class="fifth">
+            <label class="huhu">Time:</label>
+            <input type="text" class="time" placeholder="Enter your time schedule">
+        </div>
+        <button class="sub">Submit</button>
+        </div>
+        </body>
+
+
+        <div class="buttons">
+            <button><a class="homeservice" href="./services.html"> Click This To Go Back in Services Page </a></button>
+        </div>
+
+        <style>
+            *,
+            *:before,
+            *:after{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Times New Roman', Times, serif;
+                box-sizing: border-box;
+            }
+
+            body{
+                background-color: rgb(15, 15, 15);
+                overflow-x:hidden;
+            }
+
+            .sub{
+                height: 30px;
+                width: 80px;
+                background-color: white;
+                border: 3px solid black;
+                border-radius: 30px;
+                margin-left: 170px;
+                margin-top: 50px;
+            }
+
+            .main-container3{
+                display: inline-block;
+                margin-left: 100px;
+                margin-top: -20px;
+                background-color: white;
+                opacity: 0.7;
+                padding-left: 300px;
+                padding-right: 10px;
+                padding-top: 50px;
+            }
+
+            p{
+                font-size: 30px;
+                float: left;
+                color:rgb(216, 74, 103);
+                margin-left: -600px;
+                margin-top: -55px;
+                background-color: white;
+                padding-top: 50px;
+                padding-right: 15px;
+                padding-bottom: 15px;
+                padding-left: 250px;
+            }
+
+            .links3{
+                background: white;
+                opacity: 0.7;
+                margin-left: 410px;
+                margin-top: -80px;
+                padding-top: 35px;
+                padding-bottom:24px;
+            }
+
+            a.ll{
+                margin-left: 100px;
+                position: relative;
+                text-decoration: none;
+                font-family: 'Poppins';
+                color: rgb(8, 8, 8);
+                font-size: 18px;
+                letter-spacing: 0.5px;
+                padding: 0 10px;
+            }
+
+            a.ll:after{
+                content: "";
+                position: absolute;
+                background-color:rgb(216, 74, 103);
+                height:3px;
+                width: 0%;
+                left: 0;
+                bottom: -10px;
+                transition: 0.3s;
+            }
+
+            a.ll:hover{
+                color: rgb(235, 129, 129);
+            }
+
+            a.ll:hover:after{
+                width: 100%;
+            }
+
+            #polish3{
+                height: 60px;
+                margin-left: -200px;
+                margin-top: -21px;
+            }
+
+            .buttons{
+                margin-left: 805px;
+                margin-top: 780px;
+            }
+
+            .homeservice{
+                background-color: pink;
+                border: 1px solid yellow;
+                border-radius: 90px;
+                padding: 20px;
+            }
+
+            a.homeservice{
+                text-decoration: none;
+                font-size: 15px;
+                font-family: cursive;
+                color: black;
+            }
+
+            button.homeservice{
+                background-color:none;
+            }
+
+            button.homeservice:hover{
+                background: none;
+            }
+
+            .form{
+                background-color: pink;
+                margin-left: 700px;
+                margin-top: 100px;
+                margin-right: 650px;
+                margin-bottom: -700px;
+                padding-left: 50px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+
+            label{
+                color: black
+            }
+
+            .name, .contacts, .address, .date, .time{
+                margin-top: 20px;
+            }
+
+            #ys{
+                margin-top: 50px;
+            }
+
+            .huhu{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 15px;
+            }
+
+
+        </style>
+    </body>
+</html>

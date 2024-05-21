@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="services.css">
+        <title>KHiT Nails</title>
+    </head>
+    <body>
+
+            <nav class="main-container3">
+                <img id="polish3" src="polish-removebg-preview.png" width="60" height="60">
+                <p><b>KHiT Nails</b></p>
+            </nav>
+
+            <nav class="links3">
+            <a class="ll" href="./index.html">Home</a>
+            <a class="ll" href="./about.html">About Us</a>
+            <a id="ses" class="ll" href="">Services</a>
+            <a class="ll" href="./gallery.html">Gallery</a>
+            <a class="ll" href="./contacts.html">Contacts</a>
+            <a class="ll" href="./developers.html">Developers</a>
+            </nav>
+
+            <nav class="price">
+                <img src="PRICE LIST.png"  width="1500" height="230">
+            </nav>
+
+            <div class="gallery-wrap">
+                <img src="back-fotor-bg-remover-2024052094743.png" id="backBtn">
+
+                <div class="gallery">
+                    <div>
+                        <span><img src="nails1.jpg"></span>
+                        <span><img src="nails2.jpg"></span>
+                        <span><img src="nails3.jpg"></span>
+                    </div>
+                    <div>
+                        <span><img src="nails9.jpg"></span>
+                        <span><img src="nails5.jpg"></span>
+                        <span><img src="nails6.jpg"></span>
+                    </div>
+                    <div>
+                        <span><img src="nails7.jpg"></span>
+                        <span><img src="nails8.jpg"></span>
+                        <span><img src="nails4.jpg"></span>
+                    </div>
+                </div>
+                <img src="next-fotor-bg-remover-202405209482.png" id="nextBtn">
+
+            </div>
+
+            <div class="button">
+            <button class="hs">
+                <button>
+                <a class="homeservice" href="./homeservice.html"><b>Home Service</b></a>
+                </button>
+            </button>
+            </div>
+
+            <script>
+                let scrollContainer = document.querySelector(".gallery");
+                let backBtn = document.getElementById("backBtn");
+                let nextBtn = document.getElementById("nextBtn");
+
+                scrollContainer.addEventListener("wheel" , (evt) => {
+                    evt.preventDefault();
+                    scrollContainer.scrollLeft += evt.deltaY;
+                });
+
+                nextBtn.addEventListener("click", ()=> {
+                    scrollContainer.style.scrollBehavior = "smooth";
+                    scrollContainer.scrollLeft +=900;
+                })
+
+                backBtn.addEventListener("click", ()=> {
+                    scrollContainer.style.scrollBehavior = "smooth";
+                    scrollContainer.scrollLeft -=900;
+                })
+            </script>
+
+            </body>
+</html>

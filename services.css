@@ -1,0 +1,172 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+    overflow-x:hidden;
+}
+
+.main-container3{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -20px;
+    background-color: white;
+    opacity: 0.7;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+
+p{
+    font-size: 30px;
+    float: left;
+    color:rgb(216, 74, 103);
+    margin-left: -600px;
+    margin-top: -55px;
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 250px;
+}
+
+.links3{
+    background: white;
+    opacity: 0.7;
+    margin-left: 410px;
+    margin-top: -80px;
+    padding-top: 35px;
+    padding-bottom:24px;
+}
+
+a.ll{
+    margin-left: 100px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+a.ll:after{
+    content: "";
+    position: absolute;
+    background-color:rgb(216, 74, 103);
+    height:3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a.ll:hover{
+    color: rgb(235, 129, 129);
+}
+
+a.ll:hover:after{
+    width: 100%;
+}
+
+#polish3{
+    height: 60px;
+    margin-left: -200px;
+    margin-top: -21px;
+}
+
+.price{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.text{
+    color: white;
+}
+
+.gallery{
+    width: 900px;
+    display: flex;
+    overflow: scroll;
+}
+
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div img{
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    margin-top: 50px;
+}
+
+#backBtn, #nextBtn{
+    height: 90px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.gallery div img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.homeservice{
+    background-color: palevioletred;
+    border: 1px solid yellow;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+a.homeservice{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    margin-bottom: 0px;
+    margin-top:-140px;
+    margin-left: 900px;
+}
+
+#ses{
+    background-color: pink;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
